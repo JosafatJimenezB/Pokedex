@@ -4,7 +4,7 @@ Para esta práctica tuvieron que haber visto el live del viernes ¡Donde hicimos
 ustedes seguirán con ese proyecto para tener cada quien el suyo con las siguientes características.
 
 - Maquetación del sitio con HTML
-- Diseño con CSS para que parezca un pokedex la página, aquí les dejo una imágen de uno, pero pueden volar su creatividad a como gusten. <img src="../images/pokedex.jpg" alt="SDLC" height="600px">
+- Diseño con CSS para que parezca un pokedex la página, aquí les dejo una imágen de uno, pero pueden volar su creatividad a como gusten. <img src="https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/04%20-%20JS/images/pokedex.jpg" alt="SDLC" height="600px">
 - Tener un input de entrada, donde se meta el nombre del pokemón a buscar.
 - Tomar ese input e ir a consultar el API de [pokeapi](https://pokeapi.co/)
 - mostrar en pantalla los siguientes datos del pokemón ingresado:
