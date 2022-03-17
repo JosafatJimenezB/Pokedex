@@ -1,0 +1,22 @@
+body{
+    background-color: #d1e4ff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+header img{
+    width: 500px;
+}
+
+
+#pokedex{
+    background-color: #ff0066;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 150px;
+}   
