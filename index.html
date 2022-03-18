@@ -26,6 +26,7 @@
         </div>
 
       <!-- Seccion de la pantalla de visualizacion -->
+        
         <div id="visualizar">
           <div class="nombre">
             <h1 id="pokeNombre">Pokemon name...</h1>
@@ -41,7 +42,7 @@
 
       <!-- Seccion de la descripcion del pokemon -->
       <div id="descripcion-pokemon">
-          <h3>Descripcion:</h3>
+          <h3>Evolución</h3>
           <div class="descripcion-texto">
 
           </div>
@@ -50,13 +51,19 @@
 
 
     <div class="left">
-      <h1>Buscar Pokemon</h1>
-    <input type="text" placeholder="Ingresa un pokemon..." id="pokeName" name="pokeName">
-    <button onclick="fetchPokemon()">Buscar</button>
-    </div>
+      <div class="buscador">
+        <h1>Buscar Pokemon</h1>
+        <input type="text" placeholder="Ingresa un pokemon..." id="pokeName" name="pokeName">
+        <button onclick="fetchPokemon()">Buscar <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg></button>
+      </div>
   </section>
   
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 </body>
 </html>

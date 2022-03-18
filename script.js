@@ -42,6 +42,6 @@ const nombrePokemon = (url) => {
 
 const idPokemon = (url) => {
     const pokeNum = document.getElementById('pokeId');
-    pokeNum.innerHTML = url;
+    pokeNum.innerHTML = "#"+ url;
 }
 
