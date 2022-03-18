@@ -8,6 +8,11 @@ const fetchPokemon = () => {
     fetch(url).then((res) => {
         if (res.status != "200") {
             console.log(res);
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'El pokemon que ingresaste no pudo ser encontrado!'
+              })
         }
         else {
             return res.json();
