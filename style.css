@@ -28,6 +28,7 @@ header img{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin: auto;
 }   
 
@@ -169,8 +170,8 @@ header img{
 
 .buscador{
     box-sizing: border-box;
-    padding: 20px;
     width: 500px;
+    padding: none;
 }
 
 .buscador h1{
@@ -182,20 +183,28 @@ header img{
 
 #pokeName{
     margin: 0px auto;
-    width: 250px;
+    width: 200px;
     font-size: 1.2em;
     border-radius: 4px;
     border: none;
 }
 
-.buscador button{
-    width: 100px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 1em;
-
+.contenedor-buscador{
+    width: 500px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.buscador button{
+    margin: 0%;
+    height: 30px;
+    text-align: center;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon-tabler-search{
