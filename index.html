@@ -8,11 +8,14 @@
   <title>Pokedex</title>
 </head>
 <body>
-  <header>
+  <!-- <header>
     <img src="./assets/logo-pokemon.png" alt="pokemon pokedex">
-  </header>
+  </header> -->
+
   <section id="pokedex">
     <div class="right">
+       
+      <!-- Seccion de las camaras -->
         <div class="logos-circulares">
           <div class="camera">
             <div class="lent"></div>
@@ -21,11 +24,39 @@
           <div class="circle2"></div>
           <div class="circle3"></div>
         </div>
+
+      <!-- Seccion de la pantalla de visualizacion -->
+        <div id="visualizar">
+          <div class="nombre">
+            <h1 id="pokeNombre">Pokemon name...</h1>
+            <h1 id="pokeId">#00</h1>
+          </div>
+          <div class="contenedor-foto">
+            <div class="foto">
+              <img src="./assets/pokeball.png" alt="pokemon-imagen" class="foto-pokemon" id="pokeImg">
+            </div>
+          </div>
+        </div>
+
+
+      <!-- Seccion de la descripcion del pokemon -->
+      <div id="descripcion-pokemon">
+          <h3>Descripcion:</h3>
+          <div class="descripcion-texto">
+
+          </div>
+      </div>
     </div>
+
+
     <div class="left">
-      <h1>lado derecho</h1>
+      <h1>Buscar Pokemon</h1>
+    <input type="text" placeholder="Ingresa un pokemon..." id="pokeName" name="pokeName">
+    <button onclick="fetchPokemon()">Buscar</button>
     </div>
   </section>
-</div>
+  
+
+<script src="script.js"></script>
 </body>
 </html>
