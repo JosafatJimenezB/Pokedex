@@ -24,4 +24,11 @@ Pueden usar los conocimientos vistos o usar diferentes herramientas que conozcan
 Aquí les dejo el código de pokedex que estuvimos haciendo el día del live [Link de código](../programas/4.-pokedex.js)
 
 
+## Despliegue
+
+El despliegue esta en github pages :octocat:
+
+[ver despliegue](https://josafatjimenezb.github.io/Pokedex/)
+
+
 ###### Made with :heart: by Josafat Jimenez :mexico:
