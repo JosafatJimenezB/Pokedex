@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Staatliches&family=VT323&display=swap');
 
 body{ 
-    /* background: url(./assets/fondo.jpg); */
     background-color: rgba(192, 10, 10,0.7);
-    /* font-family: 'Rubik', sans-serif;
-    font-family: 'Staatliches', cursive; */
     font-family: 'VT323', monospace;
 }
  
