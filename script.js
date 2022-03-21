@@ -64,6 +64,12 @@ const fetchPokemon = () => {
 
             let altura = data.height;
             altuPokemon(altura);
+
+
+
+            /-------movimientos del pokemon-------/
+            
+            movimientoPokemon(data.moves);
         }
     });
 }
@@ -140,6 +146,45 @@ const altuPokemon = (url) => {
 
 
 
+/-----------Movimientos del pokemon-----------/ 
+
+const movimientoPokemon = (arr) => arr.forEach(item =>{
+    const itemList = `<li>${item.move.name}</li>`;
+    document.getElementById("listMovs").innerHTML += itemList;
+});
+
+
+function limpiar(){
+   const limpiar = document.getElementById('listMovs');
+   const limpiar2 = document.getElementById('pokeNombre');
+   const limpiar3 = document.getElementById('pokeImg');
+   const limpiar4 = document.getElementById('alturaPokemon');
+   const limpiar5 = document.getElementById('pesoPokemon');
+   const limpiar6 = document.getElementById('pokeId');
+   const limpiar7 = document.getElementById('tipo-pokemon');
+
+   const stat1 = document.getElementById('hp');
+   const stat2 = document.getElementById('defense');
+   const stat3 = document.getElementById('attack');
+   const stat4 = document.getElementById('special-defense');
+   const stat5 = document.getElementById('special-attack');
+   const stat6 = document.getElementById('speed');
+
+   limpiar.innerHTML = '';
+   limpiar2.innerHTML = 'Pokemon name ...';
+   limpiar3.src = './assets/pokeball.png';
+   limpiar4.innerHTML = '0 cm';
+   limpiar5.innerHTML = '0 kg';
+   limpiar6.innerHTML = '#00';
+   limpiar7.innerHTML = 'tipo de pokemon';
+
+   stat1.innerHTML = 'Hp: ............... ';
+   stat2.innerHTML = 'Defense: .......... ';
+   stat3.innerHTML = 'Attack: ........... ';
+   stat4.innerHTML = 'Special-Defense: .. ';
+   stat5.innerHTML = 'Special-Attack: ... ';
+   stat6.innerHTML = 'Speed: ............ ';
+}
 
 
 

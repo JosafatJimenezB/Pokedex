@@ -265,4 +265,18 @@ header img{
     text-align: center;
 }
 
+.movimientos-pokemon{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 500px;
+    height: 400px;
+    background-color: #5fc480;
+    overflow-y: scroll;
+}
 
+#listMovs li{
+    list-style-type: none;
+}
